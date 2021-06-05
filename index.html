@@ -1,149 +1,222 @@
 <!DOCTYPE html>
-<html>
-<title>Khang Dang</title>
+<html lang="en">
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
 </style>
-<body class="w3-light-grey">
+<body>
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="w3-image" src="resources/hinhnen2.jpg" alt="Me" width="1500" height="600">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">KHANG DANG</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">KHANG DANG</h5>
+    <h3 class="w3-hide-medium w3-hide-small">DEVELOPER</h3>
+  </div>
+</header>
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
-    <div class="w3-third">
+
+  <!-- The Khang Section -->
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">HI THERE, I'M KHANG</h2>
+    <p class="w3-opacity"><i>How do you feel today?</i></p>
+    <p class="w3-justify">My full name is Dang Hoang Khang. I'm currently studying Computer Science at Can Tho University of Technology. My favorite programming language is Python. I love Data Analytics, Image Processing & Computer Vision, Machine Learning. In the future, I hope to be able to work at VinAI Research Institute :), become an A.I engineer.</p>
+    <p>I love my family, care about my friends, and love animals. </p>
+    <hr>
     
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="img5.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Dang Hoang Khang</h2>
-          </div>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-venus-mars fa-fw w3-margin-right w3-large w3-text-blue"></i>Male</p>
-          <p><i class="fa fa-calendar-o fa-fw w3-margin-right w3-large w3-text-blue"></i>16/06/2000</p>
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue"></i>Student</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue"></i>Can Tho, VN</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i>dhk*****@mail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue"></i>0383******</p>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">I LOVE LISTENING TO MUSIC</h2>
+      <p class="w3-opacity w3-center"><i>because of the value it brings to me as well as everyone </i></p><br>
+        <div class="w3-container w3-center">
           <hr>
-
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-blue"></i>Skills</b></p>
-          <p>Python</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:50%">50%</div>
-          </div>
-          <p>C Sharp</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:50%">
-              <div class="w3-center w3-text-white">50%</div>
-            </div>
-          </div>
-          <p>Blender</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:30%">30%</div>
-          </div>
-          <p>Adobe Photoshop</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:50%">50%</div>
-          </div>
-          <br>
-
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-language fa-fw w3-margin-right w3-text-blue"></i>Languages</b></p>
-          <p>Vietnamese</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-blue" style="height:24px;width:100%"></div>
-          </div>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-blue" style="height:24px;width:50%"></div>
-          </div>
-          <br>
-        </div>
-      </div><br>
-
-    <!-- End Left Column -->
-    </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Computer Science / Can Tho University of Technology</b></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>August 2018 - <span class="w3-tag w3-blue w3-round">Current</span></h6>
+          <p class="w3-opacity">When she was just a girl</p>
+          <p class="w3-opacity">She expected the world</p>
+          <p class="w3-opacity">But it flew away from her reach</p>
+          <p class="w3-opacity">And the bullets catch in her teeth</p>
+          <p class="w3-opacity">Life goes on, it gets so heavy</p>
+          <p class="w3-opacity">The wheel breaks the butterfly</p>
+          <p class="w3-opacity">every tear a waterfall</p>
+          <p class="w3-opacity">In the night, the stormy night, she'd close her eyes</p>
+          <p class="w3-opacity">In the night, the stormy night, away she'd fly</p>
+          <p class="w3-opacity">And dream of Paradise</p>
+          <p class="w3-opacity">She'd dream of Paradise</p>
+          <p class="w3-opacity">And so lying underneath those stormy skies</p>
+          <p class="w3-opacity">She'd say, "Oh, I know the sun must set to rise."</p>
           <p></p>
           <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graphic Designer / Study by myself</b></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Game Developer / Study by myself</b></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p></p>
+          <p>The lyrics above are from a song I really like.</p>
+          <p>Do you know what song the above lyrics are from?</p>
         </div>
       </div>
-
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="	fa fa-heart fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Interests</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b><i class="fa fa-gamepad fa-fw w3-margin-right w3-large w3-text-blue"></i>Play video games</b></h5>
-          <p>The genre of game I like is the FPS game, especially the high team games.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b><i class="fa fa-headphones fa-fw w3-margin-right w3-large w3-text-blue"></i>Listen to music</b></h5>
-          <p>"Music expresses that which can not be said and on which it is impossible to be silent"</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b><i class="fa fa-compass fa-fw w3-margin-right w3-large w3-text-blue"></i>Travel</b></h5>
-          <p>After each semester, I often travel with my friends.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b><i class="fa fa-leaf fa-fw w3-margin-right w3-large w3-text-blue"></i>Garden</b></h5>
-          <p>I have a small garden. I grow cabbage, tomatoes,... but I don't want to eat them at all.</p>
-          <p>I love animals. I have a dog and some ducks, they're my friends.</p>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="	fa fa-crosshairs fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Targets</h2>
-        <div class="w3-container">
-          <p>Has a small product of its own</p>
-          <p>Become a senior developer</p>
-          <hr>
-        </div>
-      </div>
-
-    <!-- End Right Column -->
     </div>
-    
-  <!-- End Grid -->
   </div>
-  
-  <!-- End Page Container -->
-</div>
 
-<footer class="w3-container w3-blue w3-center w3-margin-top">
-  <p>Find me on social media.</p>
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide">I LOVE MY FRIENDS</h2>
+    <p class="w3-opacity"><i>~</i></p>
+    <p class="w3-justify">I love my friends. The people with me try their best in learning. During more than 3 years of university, many events occurred that gave us unforgettable experiences, helped us understand each other better and overcome our weaknesses. At the end of each semester, we always take time to travel together to relieve the pressure. I will never forget them. </p>
+
+      <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+        <!-- Automatic Slideshow Images -->
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/dichoinhaHuy1.png" style="width:100%">
+          <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            <h3>Soc Trang</h3>
+            <p><b>Tham nha Huy"</b></p>   
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/dichoinhaThanh.png" style="width:100%">
+          <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            <h3>Rach Gia</h3>
+            <p><b>We had the best time playing at Thanh's house</b></p>
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/dichoi5.jpg" style="width:100%">
+           <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+             <h3>Kien Luong</h3>
+             <p><b>Thank you, good times.</b></p>    
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/dichoinhaThanh5.jpg" style="width:100%">
+           <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+             <h3>Kien Luong</h3>
+             <p><b>Thank you, good times.</b></p>    
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/dichoinhaThanh1.jpg" style="width:100%">
+           <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+             <h3>Kien Luong</h3>
+             <p><b>Thank you, good times.</b></p>    
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/dichoinhaThanh3.jpg" style="width:100%">
+           <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+             <h3>Kien Luong</h3>
+             <p><b>Thank you, good times.</b></p>    
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/dichoi4.png" style="width:100%">
+           <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+             <h3>Kien Luong</h3>
+             <p><b>Thank you, good times.</b></p> 
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/diSaDec.jpg" style="width:100%">
+           <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+             <h3>Sa Dec</h3>
+             <p><b>Thank you, good times.</b></p>    
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/diHaTien.jpg" style="width:100%">
+           <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+             <h3>Ha Tien</h3>
+             <p><b>Thank you, good times.</b></p>    
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/diChauDoc1.jpg" style="width:100%">
+           <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+             <h3>Chau Doc</h3>
+             <p><b>Thank you, good times.</b></p>    
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/IMG20190326210146.jpg" style="width:100%">
+           <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+             <h3>Can Tho</h3>
+             <p><b>Thank you, good times.</b></p>    
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/IMG20190304180323.jpg" style="width:100%">
+           <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+             <h3>Can Tho</h3>
+             <p><b>Thank you, good times.</b></p>    
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/IMG20181220190622.jpg" style="width:100%">
+           <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+             <h3>Can Tho</h3>
+             <p><b>Thank you, good times.</b></p>    
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/divang_haha.jpg" style="width:100%">
+           <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+             <h3>O Mon</h3>
+             <p><b>Thank you, good times.</b></p>    
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/baocaodoan2.jpg" style="width:100%">
+          <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            <h3>Do an 2</h3>
+            <p><b>Bao cao Do an KHMT 2. I won't forget.</b></p>    
+          </div>
+        </div>
+        <div class="mySlides w3-display-container w3-center">
+          <img src="resources/baocaoDoan.jpeg" style="width:100%">
+          <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+            <h3>Do an 2</h3>
+            <p><b>Bao cao Do an KHMT 2. I won't forget.</b></p>    
+          </div>
+        </div>
+      </div>
+
+  </div>
+
+<!-- Image of location/map -->
+<hr>
+<img src="resources/dichoinhaThanh4.png" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
   <i class="fa fa-facebook-official w3-hover-opacity"></i>
   <i class="fa fa-instagram w3-hover-opacity"></i>
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+</script>
 
 </body>
 </html>
